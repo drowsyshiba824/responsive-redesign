@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Responsive Redesign</title>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="description" content="my assignment write up">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work Sans:400,500,600,700">
+    <style>
+        body {
+            font-family: "Work Sans", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Responsive Redesign</h1>
+        <h3 class=pb-3>Redesigning an author's website</h3>
+        <img class="header-image pb-5" src="./Images/header.png" alt="Redesigned Website">
+    </div>
+
+    <div class="section">
+        <h2 class="section-heading">Overview</h2>
+        <p class="page-text">In this project, I redesigned an author’s website, improving its usability and accessibility. I began with an analysis of the original website before creating low fidelity wireframes. I then finalized these designs into high fidelity prototypes
+            with a refreshed style guide using Adobe XD.
+        </p>
+        <p class="page-text"> After designing the new website, I then developed the website using HTML and CSS, making sure it was responsive for all screen sizes.</p>
+    </div>
+
+    <!-- put two images to the right of the text -->
+    <div class="section">
+        <h2 class="section-heading">The Original Website</h2>
+        <p class="page-text">I have noticed many authors who may not be a household name, but still have a large following and fanbase for their books have websites that fail to highlight their work properly. This website is one such example of a YA author who I have read
+            but has a poorly designed website.
+        </p>
+        <a class="page-text" href=" http://www.jenniferlynnbarnes.com/ ">Click here to see the original website</a>
+
+
+        <!-- Add caption with link to website -->
+        <div class="container pt-5 pb-5">
+            <div class="d-flex justify-content-center box-m gap-5">
+                <div class="d-flex flex-column align-items-center">
+                    <img class="image" src="./Images/OGweb.png" alt="Original Website">
+                    <p class="page-text">Original Website</p>
+                </div>
+                <div class="d-flex flex-column align-items-center ">
+                    <img class="image " src="./Images/OGmobile.png " alt="Original Website on mobile ">
+
+                    <p class="page-text "> Original website on mobile
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section ">
+        <h2 class="section-heading ">Usability Issues</h2>
+        <p class="page-text "> Below, I have categorized the usability issues I found into problems for regular users (usability), new users (learnability), and infrequent users (memorability)
+        </p>
+        <h3 class="section-heading ">Regular Users</h3>
+        <ul>
+            <li class="bullet-point ">Author's name/logo doesn’t link to a home page, unclear what is the “home” page
+            </li>
+            <li class="bullet-point ">The images are awkwardly much bigger than the text blocks, which makes regular users have to scroll more than necessary.
+            </li>
+            <li class="bullet-point ">On mobile, the page just scales down in width, which makes the text verge on being too small for users to easily read.
+        </ul>
+
+        <h3 class="section-heading ">New Users</h3>
+        <ul>
+            <li class="bullet-point ">New users may be unable to read the headers of the navigation bar.
+            </li>
+            <li class="bullet-point ">The navigation items also do not look clickable due to the font.
+            </li>
+            <li class="bullet-point ">Because the author’s name is in the same style as the navigation items, you would imply that it would also behave as a link, but it does not.
+            </li>
+            <li class="bullet-point ">There are no headers or spacing for the distinct sections, which makes it hard for new users to figure out the hierarchy of the site.
+            </li>
+            <li class="bullet-point ">The gallery of books does not look clickable due to it's size, especailly on mobile.
+
+            </li>
+        </ul>
+
+        <h3 class="section-heading ">Infrequent Users</h3>
+        <ul>
+            <li class="bullet-point ">Infrequent users may not remember what each section is for since there are no headers.
+
+            </li>
+            <li class="bullet-point ">Infrequent users may forget that the gallery of books are clickable.
+
+            </li>
+            <li class="bullet-point "> Initial news title is small and below the image, which does not well advertise events and news to readers who may be out of the loop.
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="section ">
+        <h2 class="section-heading ">Accessibility Issues</h2>
+        <p class="page-text "> WAVE identified a few problems with accessibility that I listed below.
+        </p>
+        <ul>
+            <li class="bullet-point ">No language identified
+            </li>
+
+            <li class="bullet-point "> Contrast errors
+            </li>
+
+            <li class="bullet-point ">No header structures
+            </li>
+
+            <li class="bullet-point ">No page regions
+            </li>
+        </ul>
+
+        <p class="page-text book-text "> I agree with these problems found, as the lack of identified language makes it impossible for a screen reader to read. While the contrast errors were only for the “learn more about this book” buttons and to my eye the contrast was fine, it may
+            still present issues for visually impaired users. The last two issues with headers and page regions is a problem for all users, as there is no hierarchical distinction between sections as explained in my usability issues.
+        </p>
+    </div>
+
+    <div class="section ">
+        <h2 class="section-heading ">Wireframing</h2>
+        <p class="page-text "> After identifying these problems, I began to brainstorm a responsive design and create low fidelity wireframes for mobile, tablets, and desktop. Scroll to see all the images!
+        </p>
+
+        <div class="container pb-5 overflow-scroll ">
+            <div class="d-flex justify-content-start box gap-5 ">
+                <div class="d-flex flex-column align-items-center ">
+                    <img class="image " src="./Images/lofi-web.jpg " alt="Low fidelity web wireframe "> </div>
+                <div class="d-flex flex-column align-items-center ">
+                    <img class="image " src="./Images/lofi-ipad.jpg " alt="Low fidelity tablet wireframe ">
+                </div>
+                <div class="d-flex flex-column align-items-center ">
+                    <img class="image " src="./Images/lofi-mobile.jpg " alt="Low fidelity mobile wireframe ">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="section ">
+        <h2 class="section-heading ">Final Design</h2>
+        <h3 class="section-heading pt-3 ">Style Guide</h3>
+        <img class="image overflow-scroll" src="./images/StyleGuide.png " alt="Style Guide ">
+
+        <h3 class="section-heading pt-5 ">High Fidelity Protoypes</h3>
+
+        <p class="page-text pt-3 ">Scroll to see all the images!</p>
+
+        <div class="container pt-3 pb-5 overflow-scroll ">
+            <div class="d-flex justify-content-start box gap-5 ">
+                <div class="d-flex flex-column align-items-center ">
+                    <img class="image " src="./Images/hifi-web.jpg " alt="High fidelity web prototype "> </div>
+                <div class="d-flex flex-column align-items-center ">
+                    <img class="image " src="./Images/hifi-ipad.jpg " alt="High fidelity tablet prototype ">
+                </div>
+                <div class="d-flex flex-column align-items-center ">
+                    <img class="image " src="./Images/hifi-mobile.jpg " alt="High fidelity mobile prototype ">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section ">
+        <h2 class="section-heading ">Responsive Redesign</h2>
+        <p class="page-text "> Here is my final responsive website created based on my designs!
+        </p>
+        <a class="page-text " href=" https://drowsyshiba824.github.io/website-redesign/ ">Click here to see the full website</a>
+
+
+
+        <div class="container pb-5 overflow-scroll mt-5 ">
+            <div class="d-flex justify-content-center box-l gap-5 ">
+                <div class="d-flex flex-column align-items-center ">
+                    <img class="image " src="./Images/web-web.png " alt="Low fidelity web wireframe "> </div>
+                <div class="d-flex flex-column align-items-center ">
+                    <img class="image " src="./Images/ipad-web.png " alt="Low fidelity tablet wireframe ">
+                </div>
+                <div class="d-flex flex-column align-items-center ">
+                    <img class="image " src="./Images/mobile-web.png " alt="Low fidelity mobile wireframe ">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer ">
+        <br>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+#responsive-redesign-page {
+    background-color: white;
+}
+
+.header-image {
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+}
+
+.image {
+    width: auto;
+    height: 100%;
+}
+
+.box {
+    height: 600px;
+}
+
+.box-m {
+    height: 700px;
+}
+
+.box-l {
+    height: 1100px;
+}
+
+.section {
+    padding: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.section_headings {
+    text-align: left;
+}
+
+.page-text {
+    font-size: larger;
+    line-height: 1.5;
+    margin-bottom: 1.5;
+}
+
+.bullet-point {
+    font-size: larger;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.header {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footer {
+    margin: 50px;
+}
